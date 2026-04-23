@@ -5,6 +5,7 @@ data/raw/*
 data/refs/*
 data/resources/*
 results/mutect2/*
+results/contamination/*
 data/processed/*.vcf.gz
 data/processed/*.vcf.gz.tbi
 data/processed/*.gds

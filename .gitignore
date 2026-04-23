@@ -1,0 +1,21 @@
+# Files to Ignore
+
+# Analysis Data
+data/raw/*.vcf.gz
+data/raw/*.vcf.gz.tbi
+data/processed/*.vcf.gz
+data/processed/*.vcf.gz.tbi
+data/processed/*.gds
+data/raw/*.gds
+data/raw/*.bai
+
+# Outputs
+*.html
+*.pdf
+*.png
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

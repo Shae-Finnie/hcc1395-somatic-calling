@@ -23,6 +23,34 @@ bcftools view -H somatic.vcf.gz | wc -l
 bcftools view -H somatic.vcf.gz | cut -f1 | sort | uniq -c
 - per-chromosome distribution of mutations
 
+#### example output
+
+-f1 | sort | uniq -c
+1799 chr1
+ 644 chr10
+ 921 chr11
+ 996 chr12
+ 375 chr13
+ 824 chr14
+ 777 chr15
+1570 chr16
+ 825 chr17
+ 422 chr18
+ 904 chr19
+1305 chr2
+ 494 chr20
+ 273 chr21
+ 458 chr22
+1210 chr3
+ 850 chr4
+ 938 chr5
+2744 chr6
+1405 chr7
+ 768 chr8
+ 813 chr9
+1132 chrX
+  12 chrY
+
 bcftools view somatic.vcf.gz chr17:7660000-7700000 | grep -v "^##"
 - check TP53 
 

@@ -1,15 +1,18 @@
 # Files to Ignore
 
 # Analysis Data
-data/raw/*
-data/refs/*
-data/resources/*
-results/mutect2/*
-results/contamination/*
+data/*
 data/processed/*.vcf.gz
 data/processed/*.vcf.gz.tbi
 data/processed/*.gds
 
+# Results
+results/*.vcf.gz
+results/*.vcf.gz.tbi
+results/*.gds
+results/*.table
+results/*.vcf
+results/*.txt
 
 # Outputs
 *.html
